@@ -1,0 +1,35 @@
+/*
+make background colour gray
+*/
+
+
+* {
+  background-color:#22292F;
+  color:white;
+}
+
+
+/* Make header white. Align to center */
+h1, h2 {
+  color: white;
+  text-align: center;
+}
+
+/*
+For ul of hyperlinks:
+Remove bullet points.
+Put them on same line.
+*/
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+/* Make input buttons like submit appear clickable */
+input {
+  cursor:pointer;
+}
+
+select {
+  cursor:move;
+}

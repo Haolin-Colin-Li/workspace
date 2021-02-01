@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daily Quests</title>
+    <link rel="stylesheet" type="text/css" href="./dark_mode.css">
+  </head>
+  <body>
+    <h1><strong>Daily Quests</strong></h1>
+    <hr>
+    <ul>
+      <li><a href="./home.html">HOME</a></li>
+      <li><a href="./dailyQuest.html">Daily quests</a></li>
+      <li><a href="./key_resources.html">resources</a></li>
+      <li><a href="./diary.html">journal</a></li>
+      <li><a href="./habitScorecard.html">habit scorecard</a></li>
+    </ul>
+    <hr>
+    <form>
+      <p> 15 push ups: </p>
+      <input type="radio" name="push ups" value="completed">completed
+      <br>
+      <input type="radio" name="push ups" value="skipped">skipped
+      <br>
+
+      <p> 30 squats: </p>
+      <input type="radio" name="squats" value="completed">completed
+      <br>
+      <input type="radio" name="squats" value="skipped">skipped
+      <br>
+
+      <p> 30 sit ups: </p>
+      <input type="radio" name="sit ups" value="completed">completed
+      <br>
+      <input type="radio" name="sit ups" value="skipped">skipped
+      <br>
+
+      <p> meditate for at least 20 minutes: </p>
+      <input type="radio" name="meditation" value="completed">completed
+      <br>
+      <input type="radio" name="meditation" value="skipped">skipped
+      <br>
+
+      <p> code for at least 20 minutes: </p>
+      <input type="radio" name="coding" value="completed">completed
+      <br>
+      <input type="radio" name="coding" value="skipped">skipped
+      <br>
+
+      <!--
+      Remember that value attribute in buttons are the texts displayed on the buttons themselves.
+      In radio types, if the value is not assigned, the information stored after submission is "on." To make it completed or skip
+      the value attribute need to be adjusted likewise.
+      -->
+      <br>
+      <input type="submit" name="submit" value="submit">
+      <br>
+      <br>
+      <input type="reset" name="reset details" value="reset details">
+
+    </form>
+  </body>
+</html>

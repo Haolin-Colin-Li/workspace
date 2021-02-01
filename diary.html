@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Journal</title>
+    <!-- head element is a metadata container that links to external CSS sheets -->
+    <link rel="stylesheet" type="text/css" href="./dark_mode.css">
+  </head>
+  <body>
+    <h1>Journal</h1>
+    <hr>
+    <div>
+      <ul>
+        <li><a href="./home.html">HOME</a></li>
+        <li><a href="./dailyQuest.html">Daily quests</a></li>
+        <li><a href="./key_resources.html">resources</a></li>
+        <li><a href="./diary.html">journal</a></li>
+        <li><a href="./habitScorecard.html">habit scorecard</a></li>
+      </ul>
+    </div>
+    <hr>
+    <form>
+      Entry date: <input type="date" name="date" required>
+      <br>
+      <br>
+      How are you feeling?
+      <br>
+      <select multiple>
+        <option value="Select">SELECT ONE OR MORE</option>
+        <option value="Joyful">Joyful</option>
+        <option value="Sad">Sad</option>
+        <option value="Angry">Angry</option>
+        <option value="Indifferent">Indifferent</option>
+        <option value="Afraid">Afraid</option>
+        <option value="Excitement">Excitement</option>
+        <option value="Disgust">Disgust</option>
+      </select>
+      <br>
+      <br>
+      The events as they happened objectively: <input type="text" name="objective events">
+      <br>
+      <br>
+      Your thoughts around the matter: <input type="text" name="subjective events">
+      <br>
+      <br>
+      <input type="reset" value="reset details">
+      <br>
+      <br>
+      <input type="submit" name="submit entry">
+    </form>
+  </body>
+</html>
