@@ -1,37 +1,40 @@
 /*
-make background colour gray
+make background colour navy.
 */
-
-
 * {
   background-color:#22292F;
   color:white;
+  font-family: 'Open Sans', sans-serif;
 }
 
-
-/* Make header white. Align to center */
+/* Align headings to center. Make text bold and use GOOGLE OPEN SANS*/
 h1, h2 {
-  color: white;
   text-align: center;
+  font-weight:bold;
+  text-transform: uppercase;
 }
 
 /* format paragraph texts */
 p {
   cursor: auto;
+  line-height: 30px;
 }
 
 /*
-For ul of hyperlinks:
-Remove bullet points.
-Put them on same line.
+Hyperlinks. Remove bullet points. Put them on same line.
 */
 ul {
   text-align: center;
 }
 
-ul li {
+/*
+add a border to buttons
+*/
+li {
   list-style: none;
   display: inline-block;
+  border: 0.5px solid black;
+  text-transform: capitalize;
 }
 
 /* Make input buttons like submit appear clickable */
