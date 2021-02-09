@@ -1,10 +1,14 @@
 /*
 make background colour navy.
 */
-* {
+body {
   background-color:#22292F;
   color:white;
   font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+  line-height: 50px;
 }
 
 /* Align headings to center. Make text bold and use GOOGLE OPEN SANS*/
@@ -17,13 +21,13 @@ h1, h2 {
 /* format paragraph texts */
 p {
   cursor: auto;
-  line-height: 30px;
+  line-height: 20px;
 }
 
-
 /* Make input buttons like submit appear clickable */
-input {
+form {
   cursor:text;
+  line-height: 30px;
 }
 
 select {
