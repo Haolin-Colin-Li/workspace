@@ -20,21 +20,6 @@ p {
   line-height: 30px;
 }
 
-/*
-Hyperlinks. Remove bullet points. Put them on same line.
-*/
-ul {
-  text-align: center;
-}
-
-/*
-add a border to buttons
-*/
-li {
-  list-style: none;
-  display: inline-block;
-  text-transform: capitalize;
-}
 
 /* Make input buttons like submit appear clickable */
 input {
@@ -50,8 +35,16 @@ img {
   float: top;
 }
 
-/* boxmodel hyperlinks */
 .boxmodel {
+  text-align:center;
+}
+
+/* boxmodel hyperlinks */
+.boxmodel li{
   border: 0.5px solid black;
-  padding: 20px 5px 20px 5px;
+  padding: 6px 10px 6px 10px;
+  margin-right: 50px;
+  list-style: none;
+  display:inline-block;
+  text-transform: capitalize;
 }
