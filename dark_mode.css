@@ -42,11 +42,6 @@ select {
   cursor:pointer;
 }
 
-/* put image in center with float */
-img {
-  float: top;
-}
-
 .boxmodel {
   text-align:center;
 }
@@ -64,8 +59,11 @@ img {
 /* activate flexbox */
 .container {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  align-content: space-between;
 }
 
 
