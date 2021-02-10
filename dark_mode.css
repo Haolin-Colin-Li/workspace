@@ -16,6 +16,14 @@ h1, h2 {
   text-align: center;
   font-weight:bold;
   text-transform: uppercase;
+  font-size: 2em;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 /* format paragraph texts */
@@ -51,4 +59,18 @@ img {
   list-style: none;
   display:inline-block;
   text-transform: capitalize;
+}
+
+/* activate flexbox */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.container img {
+  width: 450px;
+  height: 300px;
+  margin: 5px;
 }
